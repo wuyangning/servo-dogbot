@@ -1,5 +1,11 @@
-# spotmicro-controller
+# spotmicro
 
-project form https://www.thingiverse.com/thing:3445283
+spotmicro来自于T站上的一个项目：https://www.thingiverse.com/thing:3445283
+我为它写了一个简单的程序，基于arduino for stm32。包含了单腿运动学正反解、姿态自稳、简单步态等。其中步态死活调不好，应该是舵机性能太差（10来块模拟的996R）加上机器太重的原因。所以没有继续用这个结构。
 
-An arduino(arduino for stm32) program for robotic dog
+![](http://wx3.sinaimg.cn/mw690/e8d4eb99gy1g2h2ztq214j20u01401l0.jpg)
+
+# puppy-bot
+使用9g舵机的小机器狗。这并不是一个完整的图纸，只是一个设计原型，可以根据需要修改和完善模型。尽可能减轻了重量，大腿和小腿设计成五杆机构，以减少转动惯量。实际制作过程中因为舵机尺寸有出入，后面做了修改，所以图纸会有些不对的地方。
+五杆机构的运动学会复杂些，而且涉及到腿部的活动行程优化。有空再继续做吧。
+![](http://wx4.sinaimg.cn/mw690/e8d4eb99gy1g3qoef77i8j21400u0x6r.jpg)
